@@ -1,8 +1,10 @@
 <head>
   <style> body { margin: 0; } </style>
 
+<!--
   <script src="//unpkg.com/globe.gl"></script>
-  <!--<script src="../../dist/globe.gl.js"></script>-->
+-->
+  <script src="../../dist/globe.gl.js"></script>
 </head>
 
 <body>
@@ -20,7 +22,7 @@
     }));
 
     Globe()
-      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+      .globeImageUrl('https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57735/land_ocean_ice_cloud_2048.jpg')
       .arcsData(arcsData)
       .arcColor('color')
       .arcDashLength(() => Math.random())
