@@ -1,0 +1,1 @@
+URI converter to avoid CORS error: http://jpillora.com/base64-encoder/
